@@ -59,6 +59,10 @@ body{
     top: 0;
     left: 0;
 }
+.logo{
+    font-style: italic;
+    color: #810808;
+}
 
 #navbar{
     display: flex;
@@ -179,71 +183,229 @@ left: 20px;
 }
 
 /*Products*/
-
-#product1 .pro-container{
-    display: flex;
-    align-items: center;
+#products-contaner{
+    padding: 20px;
+    display:flex ;
+    flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 20px;
+    margin-bottom: 100px;
+    
 }
 
-#product1{
+#products-contaner .cover-product{
+    margin: 20px;
+}
+#feature-product{
     text-align: center;
+    margin: 50px;
 }
-#product1 .pro{
-    width: 23%;
-    min-width: 250px;
-    padding: 10px 12px;
-    border: 1px soild #000000;
-    border-radius: 25px;
+#feature-product h6{
+    color: rgb(161, 161, 161);
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+.cover-product{
+    background-color:rgb(228, 225, 225);
+    width: 300px;
+    border-radius: 10px;
+    
+}
+.product:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0,0,0.10);
     cursor: pointer;
-    box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
-    margin: 15px 0;
-    transition: 0.2s ease;
-    position: relative;
 }
-#product1 .pro img{
-    width: 100%;
-    border-radius: 20px;
+
+
+.product-info span {
+    color: rgb(31, 147, 168);
+    margin-left: 10px;
 }
-#product1 .pro:hover{
-    box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+.product-info h3{
+    margin-left: 10px;
 }
-#product1 .pro .des{
-    text-align: start;
-    padding: 10px 0;
+.star{
+    color: yellow;
+    margin-left: 10px;
 }
-#product1 .pro  span{
+
+.price-cart{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
     color: #088178;
     font-size: 20px;
-}
-#product1 .pro h5{
-    padding-top:7px;
-    color: black;
-    font-size: 14px;
-}
-#product1 .pro .star{
-    color: rgb(242, 242, 85);
-}
-#product1 .pro .des h4{
-    padding-top:7px;
-     font-size: 15px;
-     font-weight: 700;
-     color: #088178;
+    font-weight: 600;
 }
 
-#product1 .pro .cart{
-    width: 40px;
-    height: 40px;
+.kart{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
     line-height: 40px;
-    border-radius: 50px;
-    background-color:#c4dfde;
     font-weight: 500;
-    color: #088178;
-    border: 1x solid black;
-    bottom: 20px;
-    right: 10px;
-    position: absolute;
+}
+.cover-product img{
+    width: 280px;
+   margin: 10px;
+   border-radius: 10px;
 }
 
+#banners{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("./asset/banner/b2.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+   
+}
+#banners h5{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+#banners h1{
+    color: #fff;
+    padding: 10px 0;
+}
+#banners span{
+    color: red;
+}
+
+ button.normal{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+    transition: 0.5s;
+}
+#banners button:hover{
+    background-color: #088178;
+    color: #fff;
+}
+
+button:active{
+    opacity: 0.6;
+}
+
+#add{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px;
+}
+.add1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    min-width: 48%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("./asset/banner/b17.jpg");
+    padding: 30px;
+}
+.add1 h3{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 500;
+}
+.add1 h2{
+    color: #fff;
+    font-weight: 500;
+}
+
+.add1 h5{
+    color: #fff;
+}
+.add1 h5 span{
+    color:#571111;
+    font-size: 20px;
+    font-style: italic;
+}
+.add1 button{
+    width: 100px;
+    height: 40px;
+    border: rgb(41, 21, 21);
+   background-color: transparent;
+    color: white;
+}
+.add1 button.box-btn1{
+    width:140px;
+    font-size: 15px;
+    font-weight: 600px;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid;
+    transition: 0.2s;
+}
+
+
+.add2{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    min-width: 48%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("./asset/banner/b10.jpg");
+}
+
+.add2 h3{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 500;
+}
+.add2 h2{
+    color: #fff;
+    font-weight: 500;
+}
+
+.add2 h5{
+    color: #fff;
+}
+.add2 h5 span{
+    color:#e7f15e;
+    font-size: 20px;
+    font-style: italic;
+}
+.add2 button{
+    width: 100px;
+    height: 40px;
+    border: rgb(41, 21, 21);
+   background-color: transparent;
+    color: white;
+}
+.add2 button.box-btn2{
+    width:140px;
+    font-size: 15px;
+    font-weight: 600px;
+    color: #fff;
+    background-color:#088178;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid;
+    transition: 0.2s;
+}
+.add2 button.box-btn2:hover{
+    color:black;
+}
+.add2 button.box-btn2:active{
+    color: #1b2221;
+    opacity: 0.6;
+}
 
