@@ -552,7 +552,8 @@ button:active{
     justify-content: space-between;
 }
 .contact{
-    margin: 40px;
+    /* margin: 40px; */
+    padding: 20px;
   
 }
 /* .contact.Mycollection{
