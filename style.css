@@ -409,3 +409,233 @@ button:active{
     opacity: 0.6;
 }
 
+.add1 button.box-btn1:hover{
+    color:rgb(0, 0, 0)0, 0, 0, 0.991;
+}
+.add1 button.box-btn1:active{
+    color: #2b504b;
+    opacity: 0.6;
+}
+
+#seasion-sale{
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.seasonal{
+    background-image: url("./asset/banner/b7.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-width: 450px;
+    min-height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    margin-bottom: 20px;
+
+}
+
+.seasonal h2{
+    color: #fff;
+    font-size: 20px;
+}
+.seasonal h5{
+    color: red;
+    font-size: 15px;
+}
+
+.footer-collection{
+    background-image: url("./asset/banner/b4.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-width: 450px;
+    min-height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    margin-bottom: 20px;
+
+}
+
+.footer-collection h2{
+    color: #fff;
+    font-size: 20px;
+}
+.footer-collection h5{
+    color: red;
+    font-size: 15px;
+}
+
+.t-shirt{
+    background-image: url("./asset/banner/b18.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-width: 450px;
+    min-height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    margin-bottom: 20px;
+
+}
+
+.t-shirt h2{
+    color: #fff;
+    font-size: 20px;
+}
+.t-shirt h5{
+    color: red;
+    font-size: 15px;
+}
+
+#newsletter{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("./asset/banner/b14.png");
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+    padding: 20px 40px;
+    margin-bottom: 30px;
+    height: 40vh;
+    
+}
+
+.nexttext h2{
+    color: #fff;
+}
+.nexttext p{
+    color: #fff;
+}
+.nexttext span{
+    color: yellow;
+}
+
+.signup .input{
+    width: 310px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px;
+    border: none;
+}
+
+.signup button{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+}
+
+/*CCONTACT*/
+
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contact{
+    margin: 40px;
+  
+}
+/* .contact.Mycollection{
+    display: block;
+    width: 100%;
+} */
+
+.contact .span{
+    font-size: 20px;
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+/*social-media*/
+.social-media{
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.social-media a.fb{
+    color:#1877f2;
+    font-size: 20px;
+}
+a.fb:hover{
+   
+    opacity: 0.6;
+}
+
+.social-media a.tw{
+    color:#000000;
+    font-size: 20px;
+}
+a.tw:hover{
+    color: rgb(34, 104, 217);
+}
+.social-media a.ig{
+    color: red;
+    font-size: 20px;
+}
+a.ig:hover{
+   
+    color:rgb(242, 84, 189);
+}
+.social-media a.pn{
+    color:#f23518;
+    font-size: 20px;
+}
+a.pn:hover{
+   
+    color:rgb(242, 84, 189);
+}
+.social-media a.yt{
+    color:#f23518;
+    font-size: 20px;
+}
+a.yt:hover{
+   
+    color:rgb(242, 84, 189);
+}
+
+/*About*/
+.about h3{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.about a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
+/*My Account*/
+
+.myaccount h3{
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.myaccount a{
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
